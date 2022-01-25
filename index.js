@@ -89,28 +89,24 @@ function updateScore() {
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
-        console.log("score: "+score);
     }
     else if(optionRadio2.checked == true) {
         const answered = document.querySelector("[for='Radio2']");
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
-        console.log("score: "+score);
     }
     else if(optionRadio3.checked == true) {
         const answered = document.querySelector("[for='Radio3']");
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
-        console.log("score: "+score);
     }
     else if(optionRadio4.checked == true) {
         const answered = document.querySelector("[for='Radio4']");
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
-        console.log("score: "+score);
     }
 }
 
