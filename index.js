@@ -83,13 +83,9 @@ function updateScore() {
     const optionRadio2 = document.getElementById("Radio2");
     const optionRadio3 = document.getElementById("Radio3");
     const optionRadio4 = document.getElementById("Radio4");
-    console.log("optionRadio1 = "+optionRadio1);
-    console.log("optionRadio2 = "+optionRadio2);
-    console.log("optionRadio3 = "+optionRadio3);
-    console.log("optionRadio4 = "+optionRadio4);
+   
     if(optionRadio1.checked == true) {
         const answered = document.querySelector("[for='Radio1']");
-        console.log("answered.innerHTML = "+answered.innerHTML+"answer[i] = "+answer[i-1]);
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
@@ -97,7 +93,6 @@ function updateScore() {
     }
     else if(optionRadio2.checked == true) {
         const answered = document.querySelector("[for='Radio2']");
-        console.log("answered.innerHTML = "+answered.innerHTML+"answer[i] = "+answer[i-1]);
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
@@ -105,7 +100,6 @@ function updateScore() {
     }
     else if(optionRadio3.checked == true) {
         const answered = document.querySelector("[for='Radio3']");
-        console.log("answered.innerHTML = "+answered.innerHTML+"answer[i] = "+answer[i-1]);
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
@@ -113,7 +107,6 @@ function updateScore() {
     }
     else if(optionRadio4.checked == true) {
         const answered = document.querySelector("[for='Radio4']");
-        console.log("answered.innerHTML = "+answered.innerHTML+"answer[i] = "+answer[i-1]);
         if(answered.innerHTML == answer[i-1]) {
             score++;
         }
