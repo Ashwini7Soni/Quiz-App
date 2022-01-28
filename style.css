@@ -1,7 +1,8 @@
 #main-content {
   display: inline-block;
-  padding: 20px 20px 20px 20px;
+  padding: 50px 50px 50px 50px;
   width: fit-content;
+  border-radius: 25px;
 }
 
 #ques1 {
@@ -11,4 +12,9 @@
 #nextButton {
   visibility: visible;
   margin-top: 20px;
+}
+body {
+  background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

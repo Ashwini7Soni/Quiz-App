@@ -28,7 +28,7 @@ function displayQuestions() {
     totalScore.innerHTML = "";
     result.style.visibility = "hidden";
     result.innerHTML = "";
-    mainContent.style.backgroundColor = "rgb(201, 161, 166)";
+    mainContent.style.backgroundColor = "rgb(247, 246, 193)";
     textContent.style.visibility = "visible";
     
     //quiz end
